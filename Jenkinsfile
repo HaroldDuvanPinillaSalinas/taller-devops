@@ -13,7 +13,7 @@ pipeline {
         steps {
             sh """
                pwd
-               pylint --disable=C0111 --exit-zero rp-portfolio
+               pylint rp-portfolio
             """
         }
       }
